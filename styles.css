@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfig:wght@400;700&display=swap');
+:root {
+    --white: hsl(0, 0%, 100%);
+    --Slate300: hsl(212, 45%, 89%);
+    --Slate500: hsl(216, 15%, 48%);
+    --Slate900: hsl(218, 44%, 22%);
+
+    --paragraph: 15px;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /*Este es para que un rem sea igual a 10px*/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: var(--Slate300);
+}
+
+img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.card {
+    background-color: var(--white);
+    width: 90%;
+    max-width: 300px;
+    padding: 1.3rem;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.11);
+}
+
+.card__text {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+.card__title {
+    color: var(--Slate900);
+    font-weight: 700;
+}
+
+.card__paragraph {
+    color: var(--Slate500);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
