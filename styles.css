@@ -46,6 +46,7 @@ img {
 .card__text {
     font-family: 'Outfit', sans-serif;
     text-align: center;
+    padding: 1rem;
 }
 
 .card__title {
